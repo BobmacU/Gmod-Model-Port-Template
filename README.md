@@ -1,13 +1,17 @@
 # 📦 Gmod Model Port Template
-> 🛠️ **The ultimate starter kit for Garry’s Mod model porting**  
+> 🛠️ **The ultimate starter kit for Garry’s Mod model porting**
+
+# 💼 Latest Release: **v1.0**
+[⬇️ Download Here](../../releases/latest)
+
 > Everything you need to port a model (except the software).  
-> Best used alongside the [**Gmod Model Porting Guide made by Me**](https://steamcommunity.com/sharedfiles/filedetails/?id=3394845385) for a full walkthrough.
+> Best & Recommended using alongside the [**Gmod Model Porting Guide made by Me**](https://steamcommunity.com/sharedfiles/filedetails/?id=3394845385) for a full walkthrough.
 
 ---
 
 ## 🎯 What Is This?
-A complete, organized environment for bringing models into Garry’s Mod.  
-It comes packed with scripts, QC examples, and ready-made folders so you can focus on the model instead of wasting time setting up.
+A complete, organized template for bringing models into Garry’s Mod.  
+It comes packed with some scripts, QC examples, ready-made folders, and more.. so you can focus on the model instead of wasting time setting up.
 
 ---
 
