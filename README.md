@@ -2,7 +2,7 @@
 > 🛠️ **The ultimate starter kit for Garry’s Mod model porting**
 
 # 💼 Latest Release: **v1.0**
-[⬇️ Download Here](../../releases/latest)
+[⬇️ Download Here](https://github.com/BobmacU/Gmod-Model-Port-Template/releases/tag/Releases)
 
 > Everything you need to port a model (except the software).  
 > Best & Recommended using alongside the [**Gmod Model Porting Guide made by Me**](https://steamcommunity.com/sharedfiles/filedetails/?id=3394845385) for a full walkthrough.
