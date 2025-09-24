@@ -26,6 +26,11 @@ It comes packed with some scripts, QC examples, ready-made folders, and more.. s
 🎨 VMT & Shader Files        : Base shaders + example materials for quick texturing
 📂 Organized Work Folders    : Addon / Compiled / Exported folders for a clean workflow
 🌀 Jigglebone Setups         : Preconfigured physics for floppy parts
-🗂 Definebones           : For proper bone optimization and animation compatibility during compile
-🎯 PM & NPC Animations    : `$includemodel` lines ready to use for adding animations to QC for compiling model with animations
+🗂 Definebones                : For proper bone optimization and animation compatibility during compile
+🎯 PM & NPC Animations       : `$includemodel` lines ready to use for adding animations to QC for compiling model with animations
 🌈 Color Variation QC        : QC commands for adding color variations into QC for adding skins to the model
+```
+
+## 🗒️ Report Issues!
+If you found any issues or problems. You're welcomed to report them [**Here**](https://github.com/BobmacU/Gmod-Model-Port-Template/issues)
+Thank you!
