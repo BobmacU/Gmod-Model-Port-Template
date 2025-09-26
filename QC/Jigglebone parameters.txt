@@ -1,0 +1,292 @@
+/// Ears & Tail \\\
+
+// Tail (Good + Very Smooth movement)
+$jigglebone "Bone name" 
+{
+	is_flexible
+	{
+		length 50
+		tip_mass 0
+		pitch_stiffness 50
+		pitch_damping 7
+		yaw_stiffness 50
+		yaw_damping 7
+		along_stiffness 100
+		along_damping 0
+		yaw_constraint -15 60.000002
+		yaw_friction 0
+		yaw_bounce 0
+		angle_constraint 60.000002
+	}
+}
+
+// Ears (Good movement)
+$jigglebone "Bone name"
+{
+	is_flexible
+	{
+		length 10
+		tip_mass 0
+		pitch_stiffness 75
+		pitch_damping 7
+		yaw_stiffness 75
+		yaw_damping 7
+		along_stiffness 100
+		along_damping 0
+		angle_constraint 19.999999
+	}
+}
+
+// Ears II (Good + Longer movement)
+$jigglebone "Bone name"
+{
+	is_flexible
+	{
+		length 100
+		tip_mass 25
+		pitch_stiffness 35
+		pitch_damping 2
+		yaw_stiffness 80
+		yaw_damping 8
+		along_stiffness 50
+		along_damping 7
+		pitch_constraint -19.999999 19.999999
+		pitch_friction 0
+		pitch_bounce 0
+		yaw_constraint -20.000001 20.000001
+		yaw_friction 0
+		yaw_bounce 0
+		angle_constraint 35
+	}
+}
+
+/// Bust \\\
+
+// Bust (Good movement)
+$jigglebone "Bone name" 
+{
+	is_flexible
+	{
+		length 15
+		tip_mass 2
+		pitch_stiffness 240
+		pitch_damping 7
+		yaw_stiffness 240
+		yaw_damping 7
+		along_stiffness 100
+		along_damping 0
+		angle_constraint 14
+	}
+	has_base_spring
+	{
+		base_mass 1
+		stiffness 250
+		damping 8
+		left_constraint -0.15 0.15
+		left_friction 0.01
+		up_constraint -0.15 0.15
+		up_friction 0.01
+		forward_constraint -0.01 0.01
+		forward_friction 0.05
+	}
+}
+
+// Bust II (Decent movement)
+$jigglebone "Bone name" 
+{ 
+	is_flexible 
+	{ 
+		yaw_stiffness 200 
+		yaw_damping 9
+		pitch_stiffness 200
+		pitch_damping 9
+		length 20
+		angle_constraint 20
+	}
+}
+
+// Butt (Small movement)
+$jigglebone "Bone name"
+{
+	is_flexible
+	{
+		length 10
+		tip_mass 20
+		pitch_stiffness 100
+		pitch_damping 10
+		yaw_stiffness 100
+		yaw_damping 10
+		along_stiffness 100
+		along_damping 10
+		angle_constraint 15
+	}
+}
+
+/// Hairs \\\
+
+// Hair/Everywhere (Good movement)
+$jigglebone "Bone name" 
+{
+	is_flexible
+	{
+		length 225
+		tip_mass 0
+		pitch_stiffness 70
+		pitch_damping 6
+		yaw_stiffness 70
+		yaw_damping 6
+		along_stiffness 70
+		along_damping 3
+		angle_constraint 36.000001
+	}
+}
+
+// Long backhairs (Normal movement)
+$jigglebone "Bone name"
+{
+    is_flexible
+    {
+        length 50
+        tip_mass 0
+        pitch_stiffness 50
+        pitch_damping 7
+        yaw_stiffness 50
+        yaw_damping 7
+        along_stiffness 100
+        along_damping 0
+        yaw_constraint -15 60.000002
+        yaw_friction 0
+        yaw_bounce 0
+        angle_constraint 30
+    }
+}
+
+// Small Hairs 
+$jigglebone "Bone name"
+{
+	is_flexible
+	{
+		length 10
+		tip_mass 5
+		pitch_stiffness 500
+		pitch_damping 50
+		yaw_stiffness 500
+		yaw_damping 50
+		along_stiffness 100
+		along_damping 0
+		angle_constraint 15
+	}
+}
+
+/// Clothes \\\
+
+// Coat/Clothes/Skirt (Minimal movement)
+$jigglebone "Bone name"
+{
+	is_flexible
+	{
+		length 10
+		tip_mass 5
+		pitch_stiffness 500
+		pitch_damping 50
+		yaw_stiffness 500
+		yaw_damping 50
+		along_stiffness 100
+		along_damping 0
+		angle_constraint 15
+	}
+}
+
+// Coat/Clothes/Skirt II (Normal + Smooth movement)
+$jigglebone "Bone name"
+{
+	is_flexible
+	{
+		length 50
+		tip_mass 0
+		pitch_stiffness 50
+		pitch_damping 7
+		yaw_stiffness 50
+		yaw_damping 7
+		along_stiffness 100
+		along_damping 0
+		yaw_constraint -15 60.000002
+		yaw_friction 0
+		yaw_bounce 0
+		angle_constraint 60.000002
+	}
+}
+
+// Coat/Clothes/Skirt III (Stiff + Good movement)
+$jigglebone "Bone name"
+{
+	is_flexible
+	{
+		length 15
+		tip_mass 0
+		pitch_stiffness 200
+		pitch_damping 25
+		yaw_stiffness 200
+		yaw_damping 25
+		along_stiffness 250
+		along_damping 20
+		pitch_constraint 0 20 
+		yaw_constraint -5 5     
+		angle_constraint 20   
+		yaw_friction 0
+		yaw_bounce 0
+	}
+}
+
+/// Accessories & Ribbon \\\
+
+// Ribbon & Accessories (Minimal movement)
+$jigglebone "Bone name"               
+{
+	is_flexible
+	{
+		length 10
+		tip_mass 0
+		pitch_stiffness 75
+		pitch_damping 7
+		yaw_stiffness 75
+		yaw_damping 7
+		along_stiffness 100
+		along_damping 0
+		angle_constraint 19.999999
+	}
+}
+
+// Ribbon & Accessories II (More movement + More Gravity)
+$jigglebone "Bone name"
+{
+	is_flexible
+	{
+		length 30
+		tip_mass 200
+		pitch_stiffness 50
+		pitch_damping 7
+		yaw_stiffness 50
+		yaw_damping 7
+		along_stiffness 100
+		along_damping 0
+		angle_constraint 30.000001
+	}
+}
+
+// Item attachment (Minimal Movement)
+$jigglebone "Bone name"
+{
+	is_flexible
+	{
+		length 100
+		tip_mass 0
+		pitch_stiffness 200
+		pitch_damping 10
+		yaw_stiffness 200
+		yaw_damping 10
+		along_stiffness 100
+		along_damping 0
+		angle_constraint 19.999999
+	}
+}

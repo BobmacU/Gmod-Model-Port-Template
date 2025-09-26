@@ -1,0 +1,38 @@
+@SolidClass base(Targetname, RenderFields, Global, Shadow) = my_brush_entity : "Tutorial brush entity."
+[
+	// Inputs
+	input Toggle(void) : "Toggles the entity visible and invisible."
+]
+
+@PointClass base(Targetname) = my_logical_entity : "Tutorial logical entity."
+[
+	threshold(integer) : "Threshold" : 1 : "Number of ticks before the entity will fire its OnThreshold output."
+	// Inputs
+	input Tick(void) : "Adds one tick to the entity's count."
+
+	// Outputs
+	output OnThreshold(void) : "Fired when the number of recorded ticks reaches the specified threshold."
+]
+
+@PointClass base(Targetname, Angles) studio("models/gibs/airboat_broken_engine.mdl") = my_model_entity : "Tutorial model entity."
+[
+	// Inputs
+	input Toggle(void) : "Starts and stops the entity moving."
+]
+
+@PointClass base(Angles,Targetname,Parentname) = env_sparkler : "Tutorial special effect."
+[
+	scale(float) : "Scale" : 1 : "Scale of the effect in world units."
+
+	// Inputs
+	input Toggle(void) : "Toggles the state of the effect on and off."
+	input Scale(float) : "Scales the effect up and down via a float parameters."
+]
+
+@PointClass base(Targetname) = logic_game_message : "Tutorial entity to post message to player."
+[
+	text(string) : "Text" : "" : "Text to be posted to the player."
+	
+	// Inputs
+	input DisplayMessage(void) : "Causes the message stored in the text field to be displayed to the local player."
+]
