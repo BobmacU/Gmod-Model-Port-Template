@@ -1,0 +1,27 @@
+// QC lines for texture skin/color variations.
+
+$texturegroup "My colorgroup type 1"   
+{
+	{ TextureA }                      
+	{ TextureB }                       
+}
+
+$texturegroup "My colorgroup type 2"   
+{
+	{ TextureA  TextureAA }          
+	{ TextureB  TextureBB }          
+}
+
+$texturegroup "My colorgroup type 3"   
+{
+	{ TextureA  TextureAA }          
+	{ TextureB  TextureBB }           
+	{ TextureC  TextureCC }           
+}
+
+$texturegroup "My colorgroup type 4"   
+{
+	{ TextureA  TextureAA }           
+	{ TextureA  TextureBB }           
+	{ TextureC  TextureBB }           
+}

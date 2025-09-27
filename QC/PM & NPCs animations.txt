@@ -1,0 +1,28 @@
+////////////////////////////////////////-Playermodel Animation-////////////////////////////////////////////
+ 
+//Male
+$includemodel "m_anm.mdl"
+ 
+//Female 
+$includemodel "f_anm.mdl"
+ 
+ 
+//////////////////////////////////////////-NPC Animation-//////////////////////////////////////////////////
+ 
+//Hostile Combine
+$includemodel "combine_soldier_anims.mdl"
+$includemodel "humans/male_shared.mdl"
+ 
+//Friendly Male
+$includemodel "humans/male_shared.mdl"
+$includemodel "humans/male_ss.mdl"
+$includemodel "humans/male_gestures.mdl"
+$includemodel "humans/male_postures.mdl"
+ 
+//Friendly Female
+$includemodel "humans/female_gestures.mdl"
+$includemodel "humans/female_postures.mdl"
+$includemodel "humans/female_shared.mdl"
+$includemodel "humans/female_ss.mdl"
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
