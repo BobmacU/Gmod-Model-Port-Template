@@ -1,7 +1,7 @@
 # 📦 Gmod Model Port Template
 > 🛠️ **The ultimate starter kit for Garry’s Mod model porting**
 
-# 💼 Latest Release: **v1.0**
+# 💼 Latest Release: **v1.20**
 [⬇️ Download Here](../../releases/latest)
 
 > Everything you need to port a model (except the software).  
