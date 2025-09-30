@@ -5,7 +5,7 @@
 
 ---
 
-## [**Latest Release : V1.22 Get it here!**](https://github.com/BobmacU/Gmod-Model-Port-Template/releases/latest)
+## [**💼 Latest Release : V1.22 Get it here!**](https://github.com/BobmacU/Gmod-Model-Port-Template/releases/latest)
 
 ## 🎯 What Is This?
 A complete, organized environment for bringing models into Garry’s Mod.  
