@@ -5,7 +5,7 @@
 
 ---
 
-## [**💼 Download here! V1.23**](https://github.com/<YourUser>/<YourRepo>/releases/latest)
+## [**💼 Download here!**](https://github.com/<YourUser>/<YourRepo>/releases/latest)
 
 ## 🎯 What Is This?
 A complete, organized environment for bringing models into Garry’s Mod.  
