@@ -134,8 +134,8 @@ $ikautoplaylock "rfoot" 0.1 0.1
 $ikautoplaylock "lfoot" 0.1 0.1
 
 // Proportion trick & Ragdoll command, No need to touch.
-$sequence Proportion anims/proportions delta subtract Proportion 1 numframes 1 autoplay hidden
 $sequence ragdoll anims/ragdoll ACT_DIERAGDOLL 1
+$sequence Proportion anims/proportions delta subtract Proportion 1 numframes 1 autoplay hidden
 
 // Animation commands
 $includemodel "f_anm.mdl"

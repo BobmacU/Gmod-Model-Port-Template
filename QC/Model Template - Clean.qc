@@ -128,8 +128,8 @@ $ikchain "lfoot" "ValveBiped.Bip01_L_Foot" knee 0.707 -0.707 0
 $ikautoplaylock "rfoot" 0.1 0.1
 $ikautoplaylock "lfoot" 0.1 0.1
 
-$sequence Proportion anims/proportions delta subtract Proportion 1 numframes 1 autoplay hidden
 $sequence ragdoll anims/ragdoll ACT_DIERAGDOLL 1
+$sequence Proportion anims/proportions delta subtract Proportion 1 numframes 1 autoplay hidden
 
 $includemodel male_animation
 $includemodel female_animation
