@@ -1,5 +1,9 @@
+// Model Commands
+
 $modelname      "Mymodelarms.mdl"
 $model "Hands"  "Hands.dmx"
+
+// Armgroups/Bodygroups
 
 $bodygroup "Shirt" 
 {              
@@ -12,11 +16,20 @@ $bodygroup "Ring"
 	blank                           
 }
 
-$ambientboost
+// Material path
 
 $cdmaterials "MyMaterialPath/MyModel" 
 
-$sequence "idle" "anims/idle.smd" { fps 30 }
+// Others
+
+$ambientboost
+
+// Animations
+
+$includemodel "weapons/c_arms_animations.mdl"
+$sequence "idle" "anims/idle.dmx" { fps 30 }
+
+// Definebones
 
 $definebone "ValveBiped.Bip01_Spine4" "" 0.000006 0.000000 0.000000 -79.749939 -89.999874 -90.000099 0.000000 0.000000 0.000000 -0.000000 0.000000 -0.000000
 $definebone "ValveBiped.Bip01_L_Clavicle" "ValveBiped.Bip01_Spine4" 2.033348 1.000767 1.937660 -73.711880 168.619300 91.480563 0.000001 0.000000 0.000000 -0.000000 -0.000002 -0.000001
@@ -57,5 +70,3 @@ $definebone "ValveBiped.Bip01_R_Finger12" "ValveBiped.Bip01_R_Finger11" 1.099663
 $definebone "ValveBiped.Bip01_R_Finger0" "ValveBiped.Bip01_R_Hand" 0.806015 -0.359837 -1.318334 38.596443 -45.467528 69.981641 0.000002 0.000000 0.000000 -0.000005 -0.000004 0.000009
 $definebone "ValveBiped.Bip01_R_Finger01" "ValveBiped.Bip01_R_Finger0" 1.789783 0.000001 -0.000002 -0.000006 13.095236 0.000009 0.000000 0.000000 0.000000 -0.000006 -0.000005 0.000009
 $definebone "ValveBiped.Bip01_R_Finger02" "ValveBiped.Bip01_R_Finger01" 1.207001 0.000000 0.000000 -0.000009 20.792925 0.000003 0.000004 0.000000 -0.000002 -0.000009 -0.000001 0.000003
-
-$includemodel "weapons/c_arms_animations.mdl"

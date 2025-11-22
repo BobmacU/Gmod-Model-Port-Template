@@ -24,5 +24,3 @@ $includemodel "humans/female_gestures.mdl"
 $includemodel "humans/female_postures.mdl"
 $includemodel "humans/female_shared.mdl"
 $includemodel "humans/female_ss.mdl"
-
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////

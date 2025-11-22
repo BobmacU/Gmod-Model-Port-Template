@@ -1,0 +1,31 @@
+// QC lines for texture skin/color variations.
+
+$texturegroup "My colorgroup type 1"           // Only one material type
+{
+	{ TextureA }                               // First group 
+	{ TextureB }                               // Second group 
+}
+
+$texturegroup "My colorgroup type 2"           // Two materials type
+{
+	{ TextureA  TextureAA }                    // First group
+	{ TextureB  TextureBB }                    // Second group
+}
+
+$texturegroup "My colorgroup type 3"           // Two materials, Three groups type
+{
+	{ TextureA  TextureAA }                    // First group
+	{ TextureB  TextureBB }                    // Second group
+	{ TextureC  TextureCC }                    // Third group
+}
+
+$texturegroup "My colorgroup type 4"           // Two materials, shuffled materials type
+{
+	{ TextureA  TextureAA }                    // First group - A and AA
+	{ TextureA  TextureBB }                    // Second group - A and BB
+	{ TextureC  TextureBB }                    // Third group - C and BB
+}
+
+These example types show how $texturegroup can work. You can have alot of materials in a single group and a lot of groups until you hit the "32" materials limit.
+Same material can stay in another group and only change the one you want as well like "type 4".
+Refer to this wiki page for more infomation : https://developer.valvesoftware.com/wiki/$texturegroup

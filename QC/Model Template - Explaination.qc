@@ -37,7 +37,7 @@ $contents "solid"                            // Makes the model solid.
 
 $cdmaterials "My material path/My model"     // Defines the Material folder path
 
-// Definebones goes below
+// Definebones
 $definebone "My bone" "" -0.000005 -0.533615 38.566917 0.000000 0.000000 89.999985 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
 $definebone "My bone2" "" -0.000005 -0.533615 38.566917 0.000000 0.000000 89.999985 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
 $definebone "My bone3" "" -0.000005 -0.533615 38.566917 0.000000 0.000000 89.999985 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
@@ -99,7 +99,7 @@ $bonemerge ValveBiped.Bip01_R_Finger0
 $bonemerge ValveBiped.Bip01_R_Finger01
 
 // Jigglebones goes here
-$jigglebone "Bob" {                   // Jigglebone named "Bob"
+$jigglebone "Bob" {                   // Jigglebone named "Bob", Remove if not needed
 	is_flexible {
 		length 20
 		tip_mass 10
@@ -113,7 +113,7 @@ $jigglebone "Bob" {                   // Jigglebone named "Bob"
 	}
 }
 
-// Defines attachments.
+// Attachments, Must have Proportion Trick ran on the model to work properly.
 $attachment "eyes" "ValveBiped.Bip01_Head1" 2.63 -4.13 0.04 rotate 0 -80.1 -90
 $attachment "mouth" "ValveBiped.Bip01_Head1" -0.2 -5.8 0 rotate 0 -80 -90
 $attachment "chest" "ValveBiped.Bip01_Spine2" 4 4 0 rotate 0 95 90
@@ -129,7 +129,6 @@ $ikchain "lfoot" "ValveBiped.Bip01_L_Foot" knee 0.707 -0.707 0
 
 //The first value, 0.1, dictates how high the foot is off the ground. Generally values between 0-1 are acceptable enough. Can go higher if feet clips the ground.
 //The second value, 0.1 can be left untouched (or even at 0). This controls the rotation of the foot and isn't really necessary.
-
 $ikautoplaylock "rfoot" 0.1 0.1
 $ikautoplaylock "lfoot" 0.1 0.1
 

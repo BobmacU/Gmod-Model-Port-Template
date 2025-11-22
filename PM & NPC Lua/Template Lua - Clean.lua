@@ -1,8 +1,11 @@
+-- Define PM & C-Arm
+
 player_manager.AddValidModel( "Name", "My model/Name/modelname.mdl" )                
-player_manager.AddValidHands( "Name", "My model/Name/arm.mdl", 0, "00000000" )       
+player_manager.AddValidHands( "Name", "My model/Name/arm.mdl", 0, "00000000" )     
+
+-- Define NPCs
 
 local Category = "Category"        
-
 
 local NPC =
 {
@@ -16,8 +19,6 @@ local NPC =
 }
 
 list.Set( "NPC", "Name", NPC )                       
-
-
 
 local NPC =
 {

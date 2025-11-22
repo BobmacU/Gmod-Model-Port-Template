@@ -3,7 +3,7 @@
 player_manager.AddValidModel( "Name", "My model/Name/modelname.mdl" )                -- Defines the path to .mdl, Change the path to your model mdl
 player_manager.AddValidHands( "Name", "My model/Name/arm.mdl", 0, "00000000" )       -- Defines the path to custom arms. Change the path to your c-arm mdl
 
-local Category = "Category"                          -- Defines NPC 'category' name, Change 'Category' to any name you want to appear as in NPC section
+local Category = "Category"                          -- Defines NPC category name, Change "Category" to any name you want to appear as in NPC section
 
 
 local NPC =
@@ -17,7 +17,7 @@ local NPC =
 	Category = Category
 }
 
-list.Set( "NPC", "Name", NPC )                       -- Sets a specific position in the named list to a value, Change 'Name' to any name you want
+list.Set( "NPC", "Name", NPC )                       -- Sets a specific position in the named list to a value, Change "Name" to any name you want
 
 
 
@@ -32,4 +32,4 @@ local NPC =
 	Category = Category
 }
 
-list.Set( "NPC", "Name (Enemy)", NPC )               -- Sets a specific position in the named list to a value, Change 'Name' to any name you want.
+list.Set( "NPC", "Name (Enemy)", NPC )               -- Sets a specific position in the named list to a value, Change "Name" to any name you want.

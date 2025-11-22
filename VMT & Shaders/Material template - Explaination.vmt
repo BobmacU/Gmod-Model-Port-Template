@@ -1,0 +1,46 @@
+"VertexLitGeneric"
+{
+	"$basetexture"               "My materials/My model/Texture name"            // Defines the path to Texture
+	"$bumpmap"                   "My materials/My model/Normal"                  // Defines the path to Normal map
+	"$lightwarptexture"          "My materials/My model/ToonShader"              // Defines the path to lightwarp
+	
+// Decals & Culling.
+
+	//"$nodecal"                   "1"                                           // Stops applying bloods and other decals on this texture, Must use on high-poly models to prevent lags.
+	"$nocull"                    "1"                                             // Disable Backface culling, Use if $translucent causes only one-side to render.
+	
+// Phong-lighting, No need to touch but can be adjusted or turn off, Must turn off if you use Cel-shading lightwarps to enable Cel-shading effect.
+	
+	"$phong"                     "0"                                             // Enable Phong-lighting
+	"$phongexponenttexture"      "My materials/My model/Phong"                   // Defines the path to Phong exponent mask.
+	"$phongexponentfactor"	     "1.0"                                           // Multiplier for Phong exponent, No need to touch but can be adjusted	
+	"$phongboost"			     "1.0"                                           // Boosts the brightness of phong lighting, No need to touch but can be adjusted
+	"$phongfresnelranges"	     "[0.1 0.8 1.0]"                                 // AOE of phong, No need to touch but can be adjusted
+	"$phongalbedotint"           "1"                                             // Tints the phong reflection by the color of the $basetexture, No need to touch.
+    "$phongdisablehalflambert"   "0"                                             // Disables half-lambertian shading. Must use for toon-shading to work properly.
+	
+// Rim-lighting, No need to touch but can be adjusted or turn off.
+
+	"$rimlight"                  "1"                                             // Enable Rim-lighting
+	"$rimlightexponent"          "2"                                             // Defines "Tightness" of Rim-lighting
+	"$rimlightboost"             "1"		                                     // Additive boost for ambient cube component of rim lighting.
+	
+// Alpha and Translucent, Use "$translucent" for most situation. Use "$alphatest" if "$translucent" have issues.
+
+	//"$translucent"             "1"                                             // Specify that the material should be partially see-through. Uses alpha-channel.
+	//"$alphatest"               "1"                                             // use $alphatest instead of $translucent when there are issues with it. $alphatest drastically lowers quality, It will also cast flashlight shadows, unlike translucents.
+	//"$allowalphatocoverage"    "1"                                             // Improves the look of alpha-tested materials when using multisampling anti-aliasing (MSAA). Requires $alphatest to be enabled.
+	
+// Emission, Use if your model have an emission mask.
+	
+	//"$EmissiveBlendEnabled" 		"1"	                                         // Enable Emissive blending.				
+    //"$EmissiveBlendStrength" 		"1" 	                                     // Strength of Emissive blending.				
+    //"$EmissiveBlendTexture" 		"vgui/white"			                     // Texture used for Emissive blending. Useless but required.
+    //"$EmissiveBlendBaseTexture" 	"My materials/My model/Emission"	 		 // Defines the path to Emission mask.
+    //"$EmissiveBlendTint" 			"[ 1 1 1 ] "                                 // Tint of Emissive blending. Can be adjusted to any colors.
+	
+// Cubemap reflections, To adapt fake materials such as "Metal" , "Gold" and more..
+
+	//"$envmap"						"env_cubemap"                                // Enables cubemap reflections. Can use different cubemaps for different effects.
+	//"$envmaptint"					"[1 1 1]"                                    // Tints the cubemap reflections. Can be adjusted to any colors.
+}
