@@ -10,6 +10,7 @@ bone_replacements = {
     "Chest"                 : "ValveBiped.Bip01_Spine4",
     "Neck"                  : "ValveBiped.Bip01_Neck1",
     "Head"                  : "ValveBiped.Bip01_Head1",
+    "HeadControl"           : "ValveBiped.Bip01_Head1",
 
     # ---- LEFT ARM ----
     "Shoulder_L"            : "ValveBiped.Bip01_L_Clavicle",
@@ -139,7 +140,7 @@ bone_replacements = {
     "Little_Intermediate_L" : "ValveBiped.Bip01_L_Finger41",
     "Little_Distal_L"       : "ValveBiped.Bip01_L_Finger42",
     
-    # Fingers (Left) IV
+    # Fingers (Left) VI
     "Thumb1_l"              : "ValveBiped.Bip01_L_Finger0",
     "Thumb2_l"              : "ValveBiped.Bip01_L_Finger01",
     "Thumb3_l"              : "ValveBiped.Bip01_L_Finger02",
@@ -155,6 +156,40 @@ bone_replacements = {
     "LittleFinger1_l"       : "ValveBiped.Bip01_L_Finger4",
     "LittleFinger2_l"       : "ValveBiped.Bip01_L_Finger41",
     "LittleFinger3_l"       : "ValveBiped.Bip01_L_Finger42",
+
+    # Fingers (Left) VII -- Mlaofmd here yipee
+    "Left thumb"            : "ValveBiped.Bip01_L_Finger0",
+    "Left thumb.001"        : "ValveBiped.Bip01_L_Finger01",
+    "Left thumb.002"        : "ValveBiped.Bip01_L_Finger02",
+    "Left index"            : "ValveBiped.Bip01_L_Finger1",
+    "Left index.001"        : "ValveBiped.Bip01_L_Finger11",
+    "Left index.002"        : "ValveBiped.Bip01_L_Finger12",
+    "Left middle"           : "ValveBiped.Bip01_L_Finger2",
+    "Left middle.001"       : "ValveBiped.Bip01_L_Finger21",
+    "Left middle.002"       : "ValveBiped.Bip01_L_Finger22",
+    "Left ring"             : "ValveBiped.Bip01_L_Finger3",
+    "Left ring.001"         : "ValveBiped.Bip01_L_Finger31",
+    "Left ring.002"         : "ValveBiped.Bip01_L_Finger32",
+    "Left pinky"            : "ValveBiped.Bip01_L_Finger4",
+    "Left pinky.001"        : "ValveBiped.Bip01_L_Finger41",
+    "Left pinky.002"        : "ValveBiped.Bip01_L_Finger42",
+
+    # Fingers (Left) VIII
+    "LeftHandThumb1"        : "ValveBiped.Bip01_L_Finger0",
+    "LeftHandThumb2"        : "ValveBiped.Bip01_L_Finger01",
+    "LeftHandThumb3"        : "ValveBiped.Bip01_L_Finger02",
+    "LeftHandIndex1"        : "ValveBiped.Bip01_L_Finger1",
+    "LeftHandIndex2"        : "ValveBiped.Bip01_L_Finger11",
+    "LeftHandIndex3"        : "ValveBiped.Bip01_L_Finger12",
+    "LeftHandMiddle1"       : "ValveBiped.Bip01_L_Finger2",
+    "LeftHandMiddle2"       : "ValveBiped.Bip01_L_Finger21",
+    "LeftHandMiddle3"       : "ValveBiped.Bip01_L_Finger22",
+    "LeftHandRing1"         : "ValveBiped.Bip01_L_Finger3",
+    "LeftHandRing2"         : "ValveBiped.Bip01_L_Finger31",
+    "LeftHandRing3"         : "ValveBiped.Bip01_L_Finger32",
+    "LeftHandPinky1"        : "ValveBiped.Bip01_L_Finger4",
+    "LeftHandPinky2"        : "ValveBiped.Bip01_L_Finger41",
+    "LeftHandPinky3"        : "ValveBiped.Bip01_L_Finger42",
 
     # ---- Right ARM ----
     "Shoulder_R"            : "ValveBiped.Bip01_R_Clavicle",
@@ -284,7 +319,7 @@ bone_replacements = {
     "Little_Intermediate_R" : "ValveBiped.Bip01_R_Finger41",
     "Little_Distal_R"       : "ValveBiped.Bip01_R_Finger42",
     
-    # Fingers (Right) IV
+    # Fingers (Right) VI
     "Thumb1_r"              : "ValveBiped.Bip01_R_Finger0",
     "Thumb2_r"              : "ValveBiped.Bip01_R_Finger01",
     "Thumb3_r"              : "ValveBiped.Bip01_R_Finger02",
@@ -300,6 +335,40 @@ bone_replacements = {
     "LittleFinger1_r"       : "ValveBiped.Bip01_R_Finger4",
     "LittleFinger2_r"       : "ValveBiped.Bip01_R_Finger41",
     "LittleFinger3_r"       : "ValveBiped.Bip01_R_Finger42",
+
+    # Fingers (Right) VII -- Mlaofmd more here yipee
+    "Right thumb"            : "ValveBiped.Bip01_R_Finger0",
+    "Right thumb.001"        : "ValveBiped.Bip01_R_Finger01",
+    "Right thumb.002"        : "ValveBiped.Bip01_R_Finger02",
+    "Right index"            : "ValveBiped.Bip01_R_Finger1",
+    "Right index.001"        : "ValveBiped.Bip01_R_Finger11",
+    "Right index.002"        : "ValveBiped.Bip01_R_Finger12",
+    "Right middle"           : "ValveBiped.Bip01_R_Finger2",
+    "Right middle.001"       : "ValveBiped.Bip01_R_Finger21",
+    "Right middle.002"       : "ValveBiped.Bip01_R_Finger22",
+    "Right ring"             : "ValveBiped.Bip01_R_Finger3",
+    "Right ring.001"         : "ValveBiped.Bip01_R_Finger31",
+    "Right ring.002"         : "ValveBiped.Bip01_R_Finger32",
+    "Right pinky"            : "ValveBiped.Bip01_R_Finger4",
+    "Right pinky.001"        : "ValveBiped.Bip01_R_Finger41",
+    "Right pinky.002"        : "ValveBiped.Bip01_R_Finger42",
+
+    # Fingers (Right) VIII
+    "RightHandThumb1"        : "ValveBiped.Bip01_R_Finger0",
+    "RightHandThumb2"        : "ValveBiped.Bip01_R_Finger01",
+    "RightHandThumb3"        : "ValveBiped.Bip01_R_Finger02",
+    "RightHandIndex1"        : "ValveBiped.Bip01_R_Finger1",
+    "RightHandIndex2"        : "ValveBiped.Bip01_R_Finger11",
+    "RightHandIndex3"        : "ValveBiped.Bip01_R_Finger12",
+    "RightHandMiddle1"       : "ValveBiped.Bip01_R_Finger2",
+    "RightHandMiddle2"       : "ValveBiped.Bip01_R_Finger21",
+    "RightHandMiddle3"       : "ValveBiped.Bip01_R_Finger22",
+    "RightHandRing1"         : "ValveBiped.Bip01_R_Finger3",
+    "RightHandRing2"         : "ValveBiped.Bip01_R_Finger31",
+    "RightHandRing3"         : "ValveBiped.Bip01_R_Finger32",
+    "RightHandPinky1"        : "ValveBiped.Bip01_R_Finger4",
+    "RightHandPinky2"        : "ValveBiped.Bip01_R_Finger41",
+    "RightHandPinky3"        : "ValveBiped.Bip01_R_Finger42",
     
     # ---- LEFT LEG ----
     "UpperLeg_L"            : "ValveBiped.Bip01_L_Thigh",
@@ -341,6 +410,12 @@ bone_replacements = {
     "Left_Toe"              : "ValveBiped.Bip01_L_Toe0",
     "Left toe"              : "ValveBiped.Bip01_L_Toe0",
     "Foot.L.001"            : "ValveBiped.Bip01_L_Toe0",
+    "Left toes"             : "ValveBiped.Bip01_L_Toe0",
+    "Left Toes"             : "ValveBiped.Bip01_L_Toe0",
+    "Left_toes"             : "ValveBiped.Bip01_L_Toe0",
+    "Left_Toes"             : "ValveBiped.Bip01_L_Toe0",
+    "Left.toes"             : "ValveBiped.Bip01_L_Toe0",
+    "Left.Toes"             : "ValveBiped.Bip01_L_Toe0",
 
     # ---- RIGHT LEG ----
     "UpperLeg_R"            : "ValveBiped.Bip01_R_Thigh",
@@ -382,6 +457,12 @@ bone_replacements = {
     "Right_Toe"             : "ValveBiped.Bip01_R_Toe0",
     "Right toe"             : "ValveBiped.Bip01_R_Toe0",
     "Foot.R.001"            : "ValveBiped.Bip01_R_Toe0",
+    "Right toes"            : "ValveBiped.Bip01_R_Toe0",
+    "Right Toes"            : "ValveBiped.Bip01_R_Toe0",
+    "Right_toes"            : "ValveBiped.Bip01_R_Toe0",
+    "Right_Toes"            : "ValveBiped.Bip01_R_Toe0",
+    "Right.toes"            : "ValveBiped.Bip01_R_Toe0",
+    "Right.Toes"            : "ValveBiped.Bip01_R_Toe0",
 }
 
 # ===============================
