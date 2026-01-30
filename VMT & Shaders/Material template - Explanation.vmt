@@ -3,6 +3,7 @@
 	"$basetexture"               "My materials/My model/Texture name"            // Defines the path to Texture
 	"$bumpmap"                   "My materials/My model/Normal"                  // Defines the path to Normal map
 	"$lightwarptexture"          "My materials/My model/ToonShader"              // Defines the path to lightwarp
+	//"$color2"                  "[1 1 1]"                                       // Defines the RGB float values for RGB color only material. Only used if your material use RGB color instead of a 2D Tetxure.
 	
 // Decals & Culling.
 

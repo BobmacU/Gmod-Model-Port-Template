@@ -2,7 +2,8 @@
 {
 	"$basetexture"               "My materials/My model/Texture name"            
 	"$bumpmap"                   "My materials/My model/Normal"                  
-	"$lightwarptexture"          "My materials/My model/ToonShader"                 
+	"$lightwarptexture"          "My materials/My model/ToonShader"    
+	//"$color2"                  "[1 1 1]"   
 	
 
 	"$nodecal"                   "0"                                             
